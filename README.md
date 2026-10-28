@@ -20,7 +20,7 @@ No build command, dependencies, AI API, account system, or backend is needed.
 7. Wait for GitHub to finish deployment. Settings > Pages will show the live site URL.
 
 Expected URL if published under AaronL3958/before-you-paste:
-https://aaronl3958.github.io/before-you-paste/
+[https://aaronl3958.github.io/before-you-paste/](https://aaronl3958.github.io/Before-You-Paste/)
 This is the expected address, not a claim that the site has already been deployed.
 
 ## Future edits
