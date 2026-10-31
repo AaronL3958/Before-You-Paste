@@ -87,7 +87,8 @@ function updateChecks() {
       ? "Review complete. If any concern remains unresolved, don’t share yet. This checklist is a prompt for judgment, not a privacy guarantee."
       : count
         ? `${5 - count} more ${5 - count === 1 ? "question" : "questions"} to consider. Resolve uncertainties before sharing.`
-        : "A useful pause starts with the first question.";
+        : "";
+  $("#check-result").hidden = count === 0;
 }
 checks.forEach((c) => c.addEventListener("change", updateChecks));
 $("#reset-checklist").addEventListener("click", () => {
